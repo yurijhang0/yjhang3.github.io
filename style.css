@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* ----------------------------- navigation bar ----------------------------------- */
+
+/* top menu */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .name_logo {
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 3em;
+    letter-spacing: 2px;
+    color: darkslategray;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    margin-left: 30px;
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 40px;
+    color: darkslategray;
+    text-overflow: hidden;
+}
+
+header ul li a:hover {
+    background-color: darkslategray;
+    color: white;
+}
+
+header ul li a.active {
+    background-color: rgb(47, 173, 173);
+    color: white;
+}
+
+/* drop down bar */
+.hover_button {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 40px;
+    background-color: transparent;
+    color: darkslategray;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+
+.hover_button:hover {
+    background-color: darkslategray;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 40px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_content {
+    display: none;
+    position: absolute;
+    padding: 10px 15px;
+    background-color: rgb(47, 173, 173);
+}
+
+.dropdown_content a {
+    color: white;
+    text-decoration: none;
+    text-align: right;
+}
+
+.dropdown:hover .dropdown_content {
+    display: block;
+}
+
+/* ----------------------------- text ----------------------------------- */
+
+h1 {
+    font-weight: 800;
+    font-size: 7em;
+    padding-top: 140px;
+    padding-left: 50px;
+    padding-bottom: 25px;
+}
+
+h2 {
+    padding-top: 50px;
+    padding-left: 9%;
+    overflow: hidden;
+}
+
+p {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-bottom: 30px;
+}
+
+.text_section {
+    background-color: rgb(125, 219, 207);
+}
+
+#git_links {
+    
+}
+
+#coursework_list {
+    font-size: 20px;
+    padding-left: 20%;
+    padding-right: 13%;
+    padding-bottom: 50px;
+}
+
+#game_links {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 40px;
+    color: darkslategray;
+    text-overflow: hidden;
+    padding-left: 250px;
+    padding-top: 50px;
+}
+
+/* ----------------------------- images ----------------------------------- */
+
+#yuri_pic_style {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 400px;
+}
+
+#project_img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
